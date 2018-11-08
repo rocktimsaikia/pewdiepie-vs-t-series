@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" sizes="16x16">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Live Subscribtion Count</title>
+  <link rel="stylesheet" href="./src/style.css">
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/odometer/odometer.min.css" rel="stylesheet">
+  <link href="./assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="./assets/fonts/fonts.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid" id="toggle_id">
+    <div class="container count-container">
+      <div id="header">
+        <h1>Live Subscribtion Count</h1>
+        <label class="switch">
+          <input type="checkbox" id="input">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="row count-row">
+        <div class="col-sm col-1">
+          <h2 class="title">T-series</h2>
+          <div class="odometer" id="odometer_1">0</div>
+        </div>
+        <div class="col-sm col-2">
+          <h2 class="title">PewDiePie</h2>
+          <div class="odometer" id="odometer_2">0</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+          <ul class="list-unstyled list-inline social text-center">
+            <li class="list-inline-item"><a href="https://www.facebook.com/rocktim.saikia.50" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="https://twitter.com/RocktimSaikia10" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/itz_rocktim" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://github.com/RocktimSaikia" target="_blank"><i class="fa fa-github"></i></a></li>
+          </ul>
+        </div>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+          <p id="footer-page">This is a side project that I coded just for fun.On future this
+            web app will have some addional features where you will be able watch any channel's live subscribtion
+            counts
+            with views counts too.<br>
+            Give this project a star if you liked it <span id="star">&#10084;</span><br>
+            <iframe src="https://ghbtns.com/github-btn.html?user=RocktimSaikia&repo=&type=star&count=true&size=large"
+              frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+          </p>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/jquery-3.3.1.min.js"></script>
+  <script src="./assets/odometer/odometer.min.js"></script>
+  <script src="./src/app.bundle.js"></script>
+  <script src="./src/config.bundle.js"></script>
+</body>
