@@ -4,7 +4,8 @@
   display: flex;
   flex: 1;
   min-height: 60vh;
-  align-items: center; }
+  align-items: center;
+  transition-duration: 2s; }
 
 .count-container {
   text-align: center;
