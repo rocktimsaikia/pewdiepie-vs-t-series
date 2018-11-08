@@ -3,7 +3,7 @@ This is a fun web applicaton that lets you  check live youtube subcribtion of yo
 
 This project is live here [https://livecounting.herokuapp.com/](https://livecounting.herokuapp.com/)
 
-[Alt Text](./gif/countdown.gif)
+![Alt Text](gif/countdown.gif)
 
 ---
 
