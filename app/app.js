@@ -1,9 +1,10 @@
 import "./style.scss";
 import config from "./config";
+const { api_key, channel_id_1, channel_id_2 } = config;
 
 
-const api_response_1 = `https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${config.channel_id_1}&key=${config.api_key}`;
-const api_response_2 = `https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${config.channel_id_2}&key=${config.api_key}`;
+const api_response_1 = `https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${channel_id_1}&key=${api_key}`;
+const api_response_2 = `https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${channel_id_2}&key=${api_key}`;
 
 // const idSearch = `https://www.googleapis.com/youtube/v3/channels?key=${key}&forUsername=tseries&part=id`;
 
