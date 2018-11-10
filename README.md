@@ -2,27 +2,23 @@
 
 This is a fun web applicaton that lets you check live youtube subcribtion of youtube channels . [Currently it only serves two channel's subscribtion as default ,But live subscribtion counts will be available for any youtube channel in future, W.I.P]
 
-![pewdiedie countdown](gif/pewdiepie.gif)  ![t-series countdown](gif/t-series.gif)
-
-----
-
-
-
 This project is live here [https://livecounting.herokuapp.com/](https://livecounting.herokuapp.com/)
 
-![Alt Text](gif/countdown.gif)
+<p align="left">
+  <img src="/gif/pewdiepie.gif" width="100" />
+  <img src="/gif/t-series.gif" width="100" />
+</p>
+![pewdiedie countdown]()  ![t-series countdown](gif/t-series.gif)
 
----
 
 # Tech Stack
-----
+
 * Webpack: Bundling 
 * Babel: ES6 Compiler
 * SASS: styled-components
 * youtube v3 api : Data
 
 # License
-----
 
 The MIT License (MIT)
 
