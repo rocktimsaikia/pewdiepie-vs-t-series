@@ -27,6 +27,7 @@ Feel free to work on this project.This project is still at its initial stage and
  - And start coding on any new feature
  - When done push your branch to your forked repo
  - Make a pull request  ✌️
+ - [Before contributing ask [me](https://twitter.com/RocktimSaikia10) about the file structure if it looks confusing,As the the api keys are hidden so it will be difficult to add any new feature without discussing with me on what you should contribute]
 
 # License
 
